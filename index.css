@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+}
+.main_form{
+    min-height: 30rem;
+    width: 30rem;
+    background: rgb(114, 112, 112);
+    border-radius: 70px;
+}
+.all{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(135, 228, 81); */
+    gap: 20px;
+
+}
